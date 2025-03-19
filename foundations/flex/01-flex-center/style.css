@@ -13,3 +13,10 @@
   width: 80px;
   height: 80px;
 }
+/* Added changes */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
