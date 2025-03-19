@@ -26,7 +26,7 @@ a {
 
 /* Added changes */
 
-/* Put header as a horizontal bar and set its padding*/
+/* Put header as a horizontal bar and set its padding/margin*/
 .header {
   display: flex;
   flex-direction: row;
