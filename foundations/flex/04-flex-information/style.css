@@ -30,26 +30,31 @@ img {
 body {
   display: flex;
   flex-direction: column;
+  
   align-items: center;
+  
 }
 
 .title {
-  margin-bottom: 32px;
+  margin-bottom: 36px;
+  
 }
 
-.list_of_plants {
+.plantlist {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 52px;
-  flex: 1 1 auto;
-}
-
-.plant {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  border: 10px dotted red;
+  gap: 52px;
+  
+}
+
+.text {
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
